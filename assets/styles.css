@@ -21,8 +21,12 @@ h1,h2{
 .sharp-corners *{
     border-radius:0;
 }
-
-    
+.button-color{
+    background-color:#147798;
+}
+   .button-color:hover {
+    background-color:#1d6d8a;
+   } 
 
 #about{
     background-color:white;
