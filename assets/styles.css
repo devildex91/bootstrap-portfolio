@@ -17,10 +17,20 @@ h1,h2{
     font-family:"DM Serif Display", serif;
     color:#184f63;
 }
+.sharp-corners,
+.sharp-corners *{
+    border-radius:0;
+}
+
+    
+
 #about{
     background-color:white;
 }
 #portfolio {
+    background-color: #dbdcde;
+}
+#portfolio .row {
     background-color: #dbdcde;
 }
 #contact{
@@ -46,6 +56,7 @@ h1,h2{
     min-height:120px;
 
     }
+    
 /*media query*/
 
 @media screen and (min-width: 1200px) {
